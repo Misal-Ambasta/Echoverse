@@ -24,7 +24,6 @@ exports.createTimeline = async (req, res) => {
         resource_type: "video",
         folder: "echoverse",
       });
-      console.log(result);
       if (!result || !result.secure_url) {
         return res.status(500).json({ message: "Error uploading audio file" });
       }
@@ -80,7 +79,6 @@ exports.getTimelines = async (req, res) => {
     const timelines = await Timeline.find({ user: req.user._id }).sort({
       createdAt: -1,
     });
-    console.log(timelines);
     const data = timelines.map((timeline) => {
       const unlocked = canView && new Date(timeline.unlockAt) <= now;
 

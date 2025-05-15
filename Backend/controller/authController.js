@@ -6,7 +6,6 @@ const User = require("../models/user");
 exports.register = async (req, res) => {
   try {
     const { email, password } = req.body;
-    console.log("register")
     // Check if user already exists
     const userExists = await User.findOne({ email });
     if (userExists) {

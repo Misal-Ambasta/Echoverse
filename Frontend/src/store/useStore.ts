@@ -80,7 +80,6 @@ const useStore = create<StoreState>()(
       
       updateUserSettings: async (settings) => {
         try {
-          console.log("settings", settings)
           const token = get().token;
           const res = await api.put<{ user: User, success: boolean }>("/user/settings", settings, {
             headers: {
@@ -112,7 +111,6 @@ const useStore = create<StoreState>()(
             }
           });
           set({ timelines: res.data });
-          console.log(res.data)
           return { success: true };
         } catch (err: any) {
           set({ timelineError: err.response?.data?.message || "Failed to fetch timelines" });
