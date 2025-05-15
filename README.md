@@ -30,3 +30,19 @@ Live demo: https://echoverse-share.vercel.app/
 - Fully response for both desktop and mobile.
 
 ## Screenshots
+![image](https://github.com/user-attachments/assets/9603d80b-003a-454d-a6bf-1f6f9fa57943)
+
+![image](https://github.com/user-attachments/assets/84ae8c9a-4852-4013-8de5-33146340e2af)
+
+![image](https://github.com/user-attachments/assets/0e8bb4c3-72d3-498a-a1f4-cdb276f3b647)
+
+![image](https://github.com/user-attachments/assets/6a47f863-35d8-43f5-aab0-2656b41cd107)
+
+![image](https://github.com/user-attachments/assets/41e5579e-ca0c-4018-9e36-2bad2ae29f3d)
+
+![image](https://github.com/user-attachments/assets/9c9d1258-0b5f-4396-ae87-04c1ad23979d)
+
+![image](https://github.com/user-attachments/assets/d0e34070-eda7-4033-981d-7f231c8d1241)
+
+![image](https://github.com/user-attachments/assets/dbc3ecea-fc81-473e-ab6d-b3a571713cb6)
+
