@@ -89,7 +89,7 @@ exports.sendEmailNotification = async (to, title, userName = '') => {
         </div>
         
         <div style="text-align:center; margin:30px 0;">
-          <a href="${process.env.APP_URL || 'https://echoverse.app'}/timeline" 
+          <a href="${process.env.APP_URL || 'https://echoverse-share.vercel.app'}/timeline" 
              style="background-color:#6366F1; color:white; padding:12px 24px; text-decoration:none; border-radius:4px; font-weight:bold; display:inline-block;">
             Listen Now
           </a>
